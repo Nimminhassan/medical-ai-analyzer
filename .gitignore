@@ -1,0 +1,28 @@
+# ── Python ────────────────────────────
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ── CRITICAL — never push API keys ───
+backend/.env
+.env
+
+# ── Node ──────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+frontend/dist/
+
+# ── EasyOCR model cache ───────────────
+.EasyOCR/
+
+# ── OS ────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────
+.vscode/settings.json
+.idea/

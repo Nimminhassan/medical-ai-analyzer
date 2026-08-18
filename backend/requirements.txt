@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+groq
+pymupdf
+python-multipart
+python-dotenv
+easyocr
+pillow
+numpy
+google-generativeai
