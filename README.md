@@ -1,6 +1,6 @@
 # 🧬 Medical AI Analyzer
 
-A full-stack AI application for comprehensive health risk assessment combining **lab reports**, **ECG analysis**, **X-ray analysis**, **lifestyle questionnaire**, and **genetic data**.
+A full-stack AI application for comprehensive health risk assessment combining **lab reports**, **ECG analysis**, **X-ray analysis** and **lifestyle questionnaire**
 
 ## Features
 
@@ -8,7 +8,6 @@ A full-stack AI application for comprehensive health risk assessment combining *
 - ❤️ **ECG Analysis** — AI interprets ECG images for rhythm, ST changes, and arrhythmias
 - 🩻 **X-Ray Analysis** — Supports chest, bone, and abdominal X-rays with auto-detection
 - 📋 **Lifestyle Questionnaire** — Smoking, alcohol, diet, exercise, sleep, stress, water intake
-- 🧬 **Genetic Data Integration** — Upload 23andMe/AncestryDNA raw files or enter known mutations (BRCA1, APOE, MTHFR, etc.)
 - 🤖 **MediBot** — Context-aware AI chatbot that knows your full report and answers health questions
 - ⚡ **Quick Action Summary** — Highlights the most critical findings with specialist referral suggestions
 
@@ -27,7 +26,7 @@ A full-stack AI application for comprehensive health risk assessment combining *
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/medical-ai-analyzer.git
+git clone https://github.com/Nimminhassan/medical-ai-analyzer.git
 cd medical-ai-analyzer
 ```
 
@@ -69,8 +68,7 @@ Open `http://localhost:5173`
 | POST | `/analyze-ecg` | ECG image analysis |
 | POST | `/analyze-xray` | X-ray image analysis |
 | POST | `/chat` | MediBot contextual chat |
-| POST | `/parse-genetic` | Parse 23andMe/AncestryDNA raw DNA file |
-| GET | `/genetic-mutations-list` | List of known mutations for manual entry |
+
 
 ## Disclaimer
 
