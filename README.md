@@ -64,7 +64,7 @@ Open `http://localhost:5173`
 | Method | Endpoint | Description |
 |---|---|---|
 | POST | `/extract` | OCR text extraction from lab report |
-| POST | `/analyze-combined` | Lab + lifestyle + genetic combined analysis |
+| POST | `/analyze-combined` | Lab + lifestyle & genetic combined analysis |
 | POST | `/analyze-ecg` | ECG image analysis |
 | POST | `/analyze-xray` | X-ray image analysis |
 | POST | `/chat` | MediBot contextual chat |
